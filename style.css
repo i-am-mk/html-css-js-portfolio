@@ -34,7 +34,8 @@ nav,
 }
 
 nav {
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin-left: 50%;
   align-items: center;
   height: 17vh;
 }
@@ -149,8 +150,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  height: 100vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -166,7 +166,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 83vh;
 }
 
 .section__pic-container {
@@ -195,7 +195,7 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -270,7 +270,6 @@ section {
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
-  margin-top: 2rem;
 }
 
 .about-details-container {
@@ -314,6 +313,41 @@ section {
   margin: auto 0;
 }
 
+/* SKILLS SECTION */
+
+#skills {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem 0; /* Consistent padding */
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem; /* Space after title */
+}
+
+.logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center logos */
+  gap: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px; /* Slightly larger for better visuals */
+  height: 120px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s ease; /* Smooth hover transition */
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -324,7 +358,21 @@ section {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+}
+
+.jobPosition {
+    display: flex;
+}
+
+.experience-period {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.experienceHeader {
+    display: flex; 
+    justify-content:space-between;
 }
 
 .experience-details-container {
@@ -333,12 +381,19 @@ section {
   flex-direction: column;
 }
 
+.experience-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .article-container {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 0.5rem;
   justify-content: space-around;
 }
 
@@ -364,14 +419,7 @@ article .icon {
   background: rgb(250, 250, 250);
 }
 
-.project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
-}
-
 .project-title {
-  margin: 1rem;
   color: black;
 }
 
@@ -386,7 +434,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 90vh;
 }
 
 .contact-info-upper-container {
@@ -423,8 +471,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
-  margin: 0 1rem;
+  height: 10vh;
 }
 
 footer p {
