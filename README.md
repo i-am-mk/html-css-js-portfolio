@@ -24,7 +24,7 @@ Sections
 - Projects: A detailed view of the projects I’ve developed or contributed to, including key features and technologies used.
 
 How to View
-You can view my portfolio live at [Manoj Kadam's Portfolio](https://www.manojportfolio.com), or clone the project locally by following the steps below:
+You can view my portfolio live at [Manoj Kadam's Portfolio](https://i-am-mk.github.io/html-css-js-portfolio/), or clone the project locally by following the steps below:
 
 #Clone Repository
 ```
