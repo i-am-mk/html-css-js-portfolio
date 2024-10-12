@@ -19,10 +19,14 @@
   }
   #hamburger-nav {
     display: flex;
+    justify-content: center;
   }
   #experience,
   .experience-details-container {
     margin-top: 2rem;
+  }
+  .details-container {
+    min-width: 128px;
   }
   #profile,
   .section-container {
