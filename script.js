@@ -5,7 +5,7 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-const text = "Full Stack Developer";
+const text = "Full Stack Dev";
 let index = 0;
 const typingText = document.getElementById("typing-text");
 
@@ -21,7 +21,7 @@ function type() {
 
 function erase() {
   if (index > 0) {
-    typingText.textContent = typingText.textContent.slice(0, index - 1); // Remove last character
+    typingText.textContent = typingText.textContent.slice(0, index - 1);
     index--;
     setTimeout(erase, 100);
   } else {
