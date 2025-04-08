@@ -5,7 +5,7 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-const text = "Full Stack Dev";
+const text = "Full Stack Developer";
 let index = 0;
 const typingText = document.getElementById("typing-text");
 
